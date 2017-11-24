@@ -1,0 +1,30 @@
+body {
+  background-color: #222222;
+}
+h2 {
+  font-family: monospace;
+  color: #666666;
+}
+a {
+  color: #FF0000;
+}
+
+.top-wrapper {
+  padding: 50px;
+}
+
+.textbox {
+  font-size: 48px;
+  font-family: monospace;
+  background-color: #444444;
+  color: #EEEEEE;
+  border: 0;
+}
+
+
+.button {
+  font-family: monospace;
+  font-size: 48px;
+  color: #EEEEEE;
+  background-color: inherit;
+}
