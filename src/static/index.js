@@ -21,7 +21,11 @@ function copyURL(form) {
     if (form.username.value != "") {
       username = form.username.value + "@";
     }
-    window.prompt("Copy to clipboard: Ctrl+C, Enter",
+    var shortcut = "Ctrl+C"; 
+    if (navigator.appVersion.indexOf("Mac") != -1) {
+      shortcut = "⌘+C"
+    }
+    window.prompt("Copy to clipboard: " + shortcut + ", Enter",
                   window.location.protocol + 
                   '//' +
                   window.location.hostname + 
