@@ -14,7 +14,7 @@ a {
 }
 
 .textbox {
-  font-size: 48px;
+  font-size: 32px;
   font-family: monospace;
   background-color: #444444;
   color: #EEEEEE;
@@ -24,7 +24,7 @@ a {
 
 .button {
   font-family: monospace;
-  font-size: 48px;
+  font-size: 32px;
   color: #EEEEEE;
   background-color: inherit;
 }
